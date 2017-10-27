@@ -1,12 +1,12 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var jsmin = require("gulp-uglify");//压缩js
-var yasuocss = require("gulp-minify-css");//压缩css
-var imgmin = require("gulp-imagemin");//压缩img
+//var jsmin = require("gulp-uglify");//压缩js
+//var yasuocss = require("gulp-minify-css");//压缩css
+//var imgmin = require("gulp-imagemin");//压缩img
 var jsold = "need/mobile/*.js";
 var jsnew = "need/mobiles";
 var imgSrc = 'psd/img/*';
-var imgDest = 'images/';
+var imgDest = 'image/';
 //压缩图片
 gulp.task('imgmin',function(){
   gulp.src(imgSrc)
